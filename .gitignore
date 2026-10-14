@@ -1,0 +1,9 @@
+# Written by Claude Code each time it loads the mod (API types for the editor and tsc)
+.claude-plugin/types/
+node_modules/
+.DS_Store
+# Flightdeck's own docs and media, not used by Haha-deck
+docs/
+CHANGELOG.md
+CONTRIBUTING.md
+SECURITY.md

@@ -1,0 +1,13 @@
+{
+  "name": "haha-deck",
+  "owner": {
+    "name": "anhnh"
+  },
+  "plugins": [
+    {
+      "name": "haha-deck",
+      "source": "./",
+      "description": "Haha-deck: a personal Claude Code deck with tabs. Live (Flightdeck vitals, plan, agents, usage, prompt upgrade), Report (tasks, hours and dollars saved) and Fun (a browser beside your session)."
+    }
+  ]
+}
