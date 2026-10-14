@@ -20,12 +20,11 @@ In automatic mode a typed prompt goes to the deck first. Slash commands, prompts
 
 ## Install
 
-Haha-deck needs Claude Code 2.1.287 or later. It depends on the terminal-browser plugin (for the Fun tab), so add that marketplace first.
+Haha-deck needs Claude Code 2.1.287 or later.
 
 At the prompt of a terminal session:
 
 ```
-/plugin marketplace add zenbu-labs/terminal-browser
 /plugin install haha-deck --marketplace hoang09011996/haha-deck
 ```
 
@@ -34,14 +33,13 @@ Answer `y` to add the marketplace, pick the user scope, then `/reload-plugins`.
 From a shell:
 
 ```sh
-claude plugin marketplace add zenbu-labs/terminal-browser
 claude plugin marketplace add hoang09011996/haha-deck
 claude plugin install haha-deck@haha-deck
 ```
 
 If Flightdeck is installed too, turn it off so two decks don't dock at once: `claude plugin disable flightdeck@claude-flightdeck`.
 
-For the Fun tab, also install the terminal-browser app (`brew install --cask terminal-browser`). It needs a terminal with kitty graphics; in Orca the deck opens it in a split beside the session.
+The Fun tab is optional. It needs the terminal-browser app (`brew install --cask terminal-browser`) and its plugin (`claude plugin marketplace add zenbu-labs/terminal-browser`, then `claude plugin install terminal-browser@terminal-browser`), in a terminal with kitty graphics; in Orca the deck opens it in a split beside the session. Without them the other tabs work and Fun says the browser is missing.
 
 ### Update
 

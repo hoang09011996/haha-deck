@@ -643,7 +643,7 @@ export const FunView = (
             The browser plugin is not loaded.
           </Text>
           <Text color={HAHA.muted} wrap="wrap">
-            Install it once: /plugin install terminal-browser@terminal-browser, then /reload-plugins.
+            Install it once: /plugin marketplace add zenbu-labs/terminal-browser, /plugin install terminal-browser@terminal-browser, then /reload-plugins.
           </Text>
         </Box>
       ) : null}

@@ -107,8 +107,5 @@
       "type": "number",
       "default": 0
     }
-  },
-  "dependencies": [
-    "terminal-browser@terminal-browser"
-  ]
+  }
 }
